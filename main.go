@@ -1,9 +1,6 @@
 package main
 
 import (
-	"boxcryptor-decryptor-go/datafile"
-	"boxcryptor-decryptor-go/exportkey"
-	"boxcryptor-decryptor-go/res"
 	"bufio"
 	"crypto/aes"
 	"crypto/cipher"
@@ -21,6 +18,10 @@ import (
 	"path"
 	"strconv"
 	"time"
+
+	"github.com/janiko71/boxcryptor-decryptor-go/datafile"
+	"github.com/janiko71/boxcryptor-decryptor-go/exportkey"
+	"github.com/janiko71/boxcryptor-decryptor-go/res"
 
 	"golang.org/x/crypto/pbkdf2"
 	"gopkg.in/gookit/color.v1"

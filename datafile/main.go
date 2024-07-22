@@ -1,12 +1,13 @@
 package datafile
 
 import (
-	"boxcryptor/res"
 	"encoding/base64"
 	"encoding/binary"
 	"encoding/json"
 	"fmt"
 	"os"
+
+	"github.com/janiko71/boxcryptor-decryptor-go/res"
 
 	"gopkg.in/gookit/color.v1"
 )

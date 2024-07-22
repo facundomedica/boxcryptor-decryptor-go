@@ -1,13 +1,14 @@
 package exportkey
 
 import (
-	"boxcryptor/res"
 	"encoding/base64"
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
 	"os"
 	"strconv"
+
+	"github.com/janiko71/boxcryptor-decryptor-go/res"
 )
 
 type File struct {
